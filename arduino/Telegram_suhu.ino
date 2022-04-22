@@ -12,7 +12,7 @@ DallasTemperature suhu(&oneWire);
 float sAir;
 
 CTBot kiraBot;                                                      //variable untuk bot telegram
-String ssid = "Coffee Drip";                                        //konfigurasi koneksi ke Wifi
+String ssid = "kopisusu";                                           //konfigurasi koneksi ke Wifi
 String pass = "kopisusu";
 
 String token = "5391510150:AAEjQ_lQsnV5sL9B0etau-dGvWC5rdYKMxY";    //variable token dan id telegram 
@@ -51,7 +51,7 @@ void loop() {
         String temp = "suhu saat ini : ";
         temp += float(s);
         temp +=" *C\n";
-        kiraBot.sendMessage(id, temp, "");                        //kirim pesan balasan
+        kiraBot.sendMessage(id, temp, "");                          //kirim pesan balasan
       }
     else{
         kiraBot.sendMessage(id, "akugakngerti");
