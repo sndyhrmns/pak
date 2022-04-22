@@ -12,7 +12,7 @@ DallasTemperature suhu(&oneWire);
 float sAir;
 
 CTBot kiraBot;                                                      //variable untuk bot telegram
-String ssid = "kopisusu";                                           //konfigurasi koneksi ke Wifi
+String ssid = "Coffee Drip";                                           //konfigurasi koneksi ke Wifi
 String pass = "kopisusu";
 
 String token = "5391510150:AAEjQ_lQsnV5sL9B0etau-dGvWC5rdYKMxY";    //variable token dan id telegram 
